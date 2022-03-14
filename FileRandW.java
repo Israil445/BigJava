@@ -10,6 +10,8 @@ public class FileRandW {
         try(PrintWriter out= new PrintWriter(file)){
            out.println("israil");
            out.println("CSE");
+        }catch(Exception e){
+            e.printStackTrace();
         }
 
         //read a file
@@ -20,6 +22,8 @@ public class FileRandW {
                 System.out.println(line);
             }
 
+        }catch(Exception e){
+            e.printStackTrace();
         }
 
 
